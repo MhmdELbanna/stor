@@ -1,0 +1,67 @@
+{
+  "product": [
+    {
+      "title": "product one",
+      "price": "200",
+      "photo": "1.jpg",
+      "decs": "Lorem ipsum dolor sit, amet consectetur ",
+      "id": 1
+    },
+    {
+      "title": "product two",
+      "price": "100",
+      "photo": "2.jpg",
+      "decs": "Lorem ipsum dolor sit, amet consectetur",
+      "id": 2
+    },
+    {
+      "title": "product three",
+      "price": "400",
+      "photo": "3.jpg",
+      "decs": "Lorem ipsum dolor sit, amet consectetur",
+      "id": 3
+    },
+    {
+      "title": "product fuer",
+      "price": "8000",
+      "photo": "4.jpg",
+      "decs": "Lorem ipsum dolor sit, amet consectetur",
+      "id": 4
+    },
+    {
+      "title": "product five",
+      "price": "200000",
+      "photo": "5.jpg",
+      "decs": "Lorem ipsum dolor sit, amet consectetur",
+      "id": 5
+    },
+    {
+      "title": "product 6",
+      "price": "200000",
+      "photo": "6.jpg",
+      "decs": "Lorem ipsum dolor sit, amet consectetur",
+      "id": 6
+    },
+    {
+      "title": "product seven",
+      "price": "300",
+      "photo": "7.jpg",
+      "decs": "Lorem ipsum dolor sit, amet consectetur",
+      "id": 7
+    },
+    {
+      "title": "product eght",
+      "price": "20.00",
+      "photo": "8.jpg",
+      "decs": "Lorem ipsum dolor sit, amet consectetur",
+      "id": 8
+    },
+    {
+      "title": "prod 9",
+      "price": "200000",
+      "photo": "9.jpg",
+      "decs": "Lorem ipsum dolor sit, amet consectetur",
+      "id": 9
+    }
+  ]
+}

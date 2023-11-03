@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assest/css/bootstrap.min.css">
+    <title>Dashbord</title>
+</head>
+<body class="bg-body-secondary">
+  <div class="container ">
+
+    <h1 class=" col-12 text-center text-bg-dark bg-dark shadow  ">Dashbord</h1>
+  </div>
+   <div class="container mb-5 mt-5   ">
+    <form action="" class="product-search-form justify-content-center align-items-center d-flex gap-2 mb-3">
+      <input class="search_pro form-control w-25" type="text">
+      <button class="btn btn-primary" >search</button>
+    </form>
+    
+   </div>
+    <div class="container mt-5 ">
+        <form class="row g-3 Add_pro ">
+            <div class="col-md-6 col-12">
+              <label for="inputEmail4" class="form-label">Title</label>
+              <input required  type="text" name="title" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6 col-12">
+              <label for="inputPassword4" class="form-label">Price</label>
+              <input required type="text" name="price" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="inputAddress" class="form-label">photo</label>
+              <input required type="text" name="photo" class="form-control" id="inputAddress" placeholder="Exm: photo.jpg">
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="inputAddress2" class="form-label">description</label>
+              <input required type="text" name="decs"  class="form-control" id="inputAddress2" placeholder="descrption">
+            </div>
+            <div class="col m-auto mt-3 w-50 add_pro_btn text-center  w-25">
+              <button type="submit" class="btn btn-primary ">Add product</button>
+            </div>
+            <div class="col mt-3 w-100 d-none text-center up_pro_btn">
+              <button type="submit" class="btn btn-primary   ">Update</button>
+            </div>
+          </form>
+    </div>
+    <section class=" container product p-2 mt-3">
+        <table class="table  table-striped p-1">
+            <thead class="table-secondary">
+                <tr class="text-center" >
+                    <th scope="col">Title</th>
+                    <th scope="col">price</th>
+                    <th scope="col">photo</th>
+                    <th scope="col">description</th>
+                    <th class="updatecol"scope="col">Edit</th>
+                    <th class="deletecol"scope="col">Delete</th>
+                </tr>
+            </thead>
+            <tbody class="product_container table-group-divider text-center" >
+
+            </tbody>
+
+        </table>
+    </section>
+    <script src="../assest/js/dashbord.js"></script>
+</body>
+</html>
